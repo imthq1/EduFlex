@@ -1,21 +1,52 @@
-# eFlex - Hệ thống hỗ trợ học tập dựa trên năng lực cá nhân
+# eFlex - Nền tảng hỗ trợ học tập cá nhân hóa
 
-eFlex là một ứng dụng web tiên tiến hỗ trợ quá trình học tập cá nhân hóa, được thiết kế nhằm đáp ứng nhu cầu học tập đa dạng của từng cá nhân. Với eFlex, người dùng có thể tiếp cận các tài nguyên học tập phù hợp với năng lực, theo dõi tiến độ, và cải thiện hiệu quả học tập của mình.
+**eFlex** là một hệ thống web thông minh hỗ trợ học tập được xây dựng với mục tiêu **cá nhân hóa lộ trình học** theo năng lực người dùng. Hệ thống cung cấp các tính năng đánh giá năng lực, đề xuất khóa học, và chatbot học tập thông minh — tất cả trong một nền tảng duy nhất.
 
-##  Tính năng chính:
-- **Hệ thống cá nhân hóa học tập:** Cung cấp lộ trình học tập dựa trên năng lực và nhu cầu của người học.
-- **Theo dõi tiến độ:** Báo cáo chi tiết và trực quan hóa quá trình học tập.
-- **Gợi ý tài liệu học tập:** Đề xuất tài liệu phù hợp nhất với mục tiêu học tập của bạn.
-- **Tích hợp Gemini API:** Chatbot hỗ trợ học tập thông minh, tăng cường tính tương tác và tự động hóa.
+> **Tech Stack**: Java, Spring Boot, JavaMail, OAuth 2.0, JWT, WebSocket, MySQL, Redis, Cloudinary, Swagger
 
-##  Giao diện
+---
+
+##  Tính năng chính
+
+-  **Xác thực & Phân quyền an toàn**  
+  - Đăng nhập qua Google OAuth2 và đăng ký bằng email/password  
+  - Xác minh tài khoản qua email với JavaMail  
+  - Bảo mật API bằng JWT  
+
+-  **Quản lý người dùng & khóa học**  
+  - CRUD cho Users, Courses, Lessons, Test Exercises  
+  - Phân quyền theo vai trò (user/admin)
+
+-  **WebSocket & Redis**  
+  - Theo dõi trạng thái người dùng **real-time**  
+  - Lưu trữ cache người dùng và session bằng Redis để tối ưu hiệu suất
+
+-  **Chatbot học tập sử dụng Gemini API**  
+  - Trợ lý học tập thông minh giúp trả lời câu hỏi & hướng dẫn người học  
+
+-  **Thuật toán gợi ý khóa học (Recommendation System)**  
+  - Dựa trên **Collaborative Filtering** sử dụng hành vi học tập  
+  - Đề xuất nội dung học phù hợp với tiến độ & sở thích người học
+
+- ☁ **Tích hợp Cloudinary**  
+  - Lưu trữ và quản lý hình ảnh bài học/khóa học
+
+-  **Tài liệu API tự động với Swagger**  
+  - Dễ dàng thử nghiệm và tích hợp hệ thống
+
+---
+
+##  Giao diện hệ thống
+
 ![eFlex Screenshot](./HomePage.png)
 
-##  Cách sử dụng:
-1. Clone dự án: `git clone https://github.com/`
-2. Cài đặt phụ thuộc: `-`
-3. Chạy ứng dụng: `-`
-4. Truy cập ứng dụng tại `-`
+---
+##  Chạy ứng dụng 
+**BackEnd*
+1. Clone dự án: `git clone [https://github.com/](https://github.com/imthq1/EduFlex)`
+2. cd Backend
+3. mvn spring-boot:run
+
 
 ## API 
 ### USER
