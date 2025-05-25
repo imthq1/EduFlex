@@ -44,12 +44,12 @@
 ---
 ##  Chạy ứng dụng 
 **BackEnd**
-1. Clone dự án: `git clone [https://github.com/](https://github.com/imthq1/EduFlex)`
+1. Clone dự án: `git clone https://github.com/imthq1/EduFlex`
 2. cd Backend
 3. mvn spring-boot:run
 
 
-## API 
+## API DOCUMENT
 ### USER
 ![image](https://github.com/user-attachments/assets/d7166c30-8b97-4d8c-bc35-fddcdccd4240)
 
