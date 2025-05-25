@@ -28,7 +28,7 @@
 -  Dựa trên **Collaborative Filtering** từ hành vi học tập
 -  Gợi ý nội dung học phù hợp với **tiến độ & sở thích cá nhân**
 
-### ☁ Tích hợp Cloudinary
+###  Tích hợp Cloudinary
 -  Lưu trữ và quản lý ảnh bài học, khóa học một cách tối ưu
 
 ###  Tài liệu API tự động với Swagger
