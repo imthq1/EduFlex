@@ -8,31 +8,32 @@
 
 ##  Tính năng chính
 
--  **Xác thực & Phân quyền an toàn**  
-  - Đăng nhập qua Google OAuth2 và đăng ký bằng email/password  
-  - Xác minh tài khoản qua email với JavaMail  
-  - Bảo mật API bằng JWT  
+###  Xác thực & Phân quyền an toàn
+-  Đăng nhập qua **Google OAuth2** và đăng ký bằng **email/password**
+-  Xác minh tài khoản qua **email** với **JavaMail**
+-  Bảo mật API bằng **JWT**
 
--  **Quản lý người dùng & khóa học**  
-  - CRUD cho Users, Courses, Lessons, Test Exercises  
-  - Phân quyền theo vai trò (user/admin)
+###  Quản lý người dùng & khóa học
+-  CRUD cho **Users, Courses, Lessons, Test Exercises**
+-  Phân quyền theo vai trò: **user/admin**
 
--  **WebSocket & Redis**  
-  - Theo dõi trạng thái người dùng **real-time**  
-  - Lưu trữ cache người dùng và session bằng Redis để tối ưu hiệu suất
+###  WebSocket & Redis
+-  Theo dõi trạng thái người dùng **real-time**
+-  Cache dữ liệu người dùng và session bằng **Redis** để tối ưu hiệu suất
 
--  **Chatbot học tập sử dụng Gemini API**  
-  - Trợ lý học tập thông minh giúp trả lời câu hỏi & hướng dẫn người học  
+###  Chatbot học tập sử dụng Gemini API
+-  Trợ lý học tập thông minh giúp trả lời câu hỏi và hướng dẫn người học tự động
 
--  **Thuật toán gợi ý khóa học (Recommendation System)**  
-  - Dựa trên **Collaborative Filtering** sử dụng hành vi học tập  
-  - Đề xuất nội dung học phù hợp với tiến độ & sở thích người học
+###  Thuật toán gợi ý khóa học (Recommendation System)
+-  Dựa trên **Collaborative Filtering** từ hành vi học tập
+-  Gợi ý nội dung học phù hợp với **tiến độ & sở thích cá nhân**
 
-- ☁ **Tích hợp Cloudinary**  
-  - Lưu trữ và quản lý hình ảnh bài học/khóa học
+### ☁ Tích hợp Cloudinary
+-  Lưu trữ và quản lý ảnh bài học, khóa học một cách tối ưu
 
--  **Tài liệu API tự động với Swagger**  
-  - Dễ dàng thử nghiệm và tích hợp hệ thống
+###  Tài liệu API tự động với Swagger
+-  Dễ dàng khám phá và thử nghiệm API trực tiếp trên giao diện Swagger UI
+
 
 ---
 
@@ -42,7 +43,7 @@
 
 ---
 ##  Chạy ứng dụng 
-**BackEnd*
+**BackEnd**
 1. Clone dự án: `git clone [https://github.com/](https://github.com/imthq1/EduFlex)`
 2. cd Backend
 3. mvn spring-boot:run
